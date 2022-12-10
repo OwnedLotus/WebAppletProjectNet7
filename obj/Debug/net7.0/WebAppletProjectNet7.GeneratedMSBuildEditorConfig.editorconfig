@@ -20,16 +20,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/FizzBuzz.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRml6ekJ1enoucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/Palindrome.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFsaW5kcm9tZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Pages/RandomPi.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmFuZG9tUGkucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/jonahr/Documents/GitHub/WebAppletProjectNet7/Shared/SurveyPrompt.razor]
