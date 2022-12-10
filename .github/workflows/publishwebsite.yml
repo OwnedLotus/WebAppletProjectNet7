@@ -20,7 +20,7 @@ jobs:
     - name: Rewrite base href
       uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
       with:
-        html_path: ${{ env.PUBLISH_DIR }}/../../build/index.html
+        html_path: ${{ env.PUBLISH_DIR }}/build/index.html
         base_href: /WebAppletProjectNet7/
         
     - name: Deploy to Github Pages
