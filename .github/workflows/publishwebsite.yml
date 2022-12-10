@@ -16,12 +16,6 @@ jobs:
     - name: Publish app
       run: dotnet publish -c Release
       # You can use cd before if your project is in a subfolder
-
-    - name: Rewrite base href
-      uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
-      with:
-        html_path: /${{ env.PUBLISH_DIR }}/../index.html
-        base_href: /WebAppletProjectNet7/
         
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
