@@ -18,10 +18,10 @@ jobs:
       # You can use cd before if your project is in a subfolder
 
     - name: Rewrite base href
-      uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
+      uses: OwnedLotus/ghaction-rewrite-base-href@v1
       with:
         html_path: ${{ env.PUBLISH_DIR }}/../index.html
-        base_href: /WebAooletProjectNet7/
+        base_href: /WebAppletProjectNet7/
 
     - name: GitHub Pages
       if: success()
