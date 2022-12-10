@@ -1,0 +1,5 @@
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/release/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/release/_framework/blazor.boot.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/release/404.html
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/release/index.html
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/release/web.config
