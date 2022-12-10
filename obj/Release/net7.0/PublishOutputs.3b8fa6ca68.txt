@@ -1,0 +1,10 @@
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/release/web.config
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/release/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/release/wwwroot/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/release/wwwroot/_framework/blazor.boot.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/release/_framework/blazor.boot.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/_framework/blazor.boot.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/404.html
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/index.html
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/publish/web.config

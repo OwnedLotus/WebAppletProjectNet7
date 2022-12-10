@@ -828,3 +828,8 @@
 /home/jonahr/Documents/GitHub/WebAppletProjectNet7/obj/Release/net7.0/refint/WebAppletProjectNet7.dll
 /home/jonahr/Documents/GitHub/WebAppletProjectNet7/obj/Release/net7.0/WebAppletProjectNet7.pdb
 /home/jonahr/Documents/GitHub/WebAppletProjectNet7/obj/Release/net7.0/ref/WebAppletProjectNet7.dll
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/release/web.config
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/release/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/release/wwwroot/sample-data/weather.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/release/wwwroot/_framework/blazor.boot.json
+/home/jonahr/Documents/GitHub/WebAppletProjectNet7/bin/Release/net7.0/release/_framework/blazor.boot.json
