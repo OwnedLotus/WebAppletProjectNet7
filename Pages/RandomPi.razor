@@ -1,0 +1,77 @@
+@page "/randompi"
+@using System.Numerics
+
+<PageTitle>Generate Pi</PageTitle>
+
+<h1>Pi Generator</h1>
+
+<p>This applet generates a random value of Pi using a formula and two random floating point numbers.</p>
+
+<!--
+<form class="form-check mt-3 mb-3">
+    <p>Check to use TypeScript.</p>
+    <input type="checkbox" >
+</form>
+-->
+
+<input type="number" @bind="iterateValue">
+<button class="btn btn-primary" name="submit" @onclick="CallGenerator">Submit!</button>
+
+<div class="m-4">
+    <p>Generated Value : @resultValue</p>
+    <p>Accepted Value : @Math.PI</p>
+    <p>Percent Difference : @percentDifference%</p>
+    <p>Execution Time: @resultTime</p>
+</div>
+
+<div>
+    @foreach(var hist in PiHistory)
+    {
+        <li>Result: @hist.Key, Difference: @hist.Value%</li>
+    }
+</div>
+
+@code
+{
+    private int iterateValue;
+    private DateTime startTime;
+
+    private static TimeSpan resultTime;
+    private static double resultValue;
+    private static double percentDifference;
+
+    private static List<KeyValuePair<double, double>> PiHistory = new List<KeyValuePair<double, double>>();
+
+    private void CallGenerator()
+    {
+        startTime = DateTime.Now;
+
+        resultValue = GeneratePi(iterateValue);
+
+        resultTime = DateTime.Now - startTime;
+        
+        percentDifference = ((resultValue - Math.PI) / (resultValue + Math.PI) ) * 100;
+
+        PiHistory.Add(new KeyValuePair<double, double>(resultValue, percentDifference));
+    }
+
+    private double GeneratePi(int num)
+    {
+        Random rng = new Random();
+        int pointTotal = 0;
+        int pointCircle = 0;
+
+        for (int i = 0; i < num; i++)
+        {
+            Vector2 arrow = new Vector2(rng.NextSingle(), rng.NextSingle());
+            float dist = arrow.Length();
+
+            if (dist <= 1f)
+                pointCircle++;
+
+            pointTotal++;
+        }
+
+        return 4f * ((double)pointCircle / (double)pointTotal);
+    }
+}

@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71c7bb86-6b3c-43e3-872b-0b8e0b7e6a3c" name="Changes" comment="Added Fizz Buzz demonstration and Scaffolding" />
+    <list default="true" id="71c7bb86-6b3c-43e3-872b-0b8e0b7e6a3c" name="Changes" comment="Added Fizz Buzz demonstration and Scaffolding">
+      <change afterPath="$PROJECT_DIR$/Pages/Palindrome.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/RandomPi.razor" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +44,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -100,7 +104,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670696633162</updated>
-      <workItem from="1670696640039" duration="1363000" />
+      <workItem from="1670696640039" duration="1678000" />
     </task>
     <task id="LOCAL-00001" summary="Edited Base Tag">
       <created>1670697031225</created>
